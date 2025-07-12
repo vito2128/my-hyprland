@@ -1,0 +1,132 @@
+sab 12 lug 2025, 12:04:21, CEST: Installation started
+sab 12 lug 2025, 12:04:21, CEST: Script not run as root. Exiting.
+sab 12 lug 2025, 12:04:28, CEST: Installation started
+sab 12 lug 2025, 12:04:28, CEST: Original user is vito
+sab 12 lug 2025, 12:04:28, CEST: Arch Linux detected. Installation proceeding.
+sab 12 lug 2025, 12:04:30, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:04:30, CEST: Installation started for prerequisites section
+sab 12 lug 2025, 12:04:30, CEST: Attempting to run: Update package database and upgrade packages (Recommended)
+sab 12 lug 2025, 12:04:34, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:04:36, CEST: Update package database and upgrade packages (Recommended) completed successfully.
+sab 12 lug 2025, 12:04:36, CEST: Attempting to run: Install YAY (Must)/Breaks the script
+sab 12 lug 2025, 12:04:42, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:04:42, CEST: Install YAY (Must)/Breaks the script completed successfully.
+sab 12 lug 2025, 12:04:42, CEST: Attempting to run: Clone YAY (Must)/Breaks the script
+sab 12 lug 2025, 12:04:43, CEST: Clone YAY (Must)/Breaks the script completed successfully.
+sab 12 lug 2025, 12:04:43, CEST: Attempting to run: Build YAY (Must)/Breaks the script
+sab 12 lug 2025, 12:05:07, CEST: Command failed: makepkg --noconfirm -si && cd .. # builds with makepkg
+sab 12 lug 2025, 12:05:07, CEST: Build YAY (Must)/Breaks the script failed and was not retried (auto mode).
+sab 12 lug 2025, 12:05:07, CEST: Attempting to run: Configuring audio and brightness (Recommended)
+sab 12 lug 2025, 12:05:17, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:05:18, CEST: Configuring audio and brightness (Recommended) completed successfully.
+sab 12 lug 2025, 12:05:18, CEST: Attempting to run: Installing Nerd Fonts and Symbols (Recommended)
+sab 12 lug 2025, 12:05:20, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:19, CEST: Installing Nerd Fonts and Symbols (Recommended) completed successfully.
+sab 12 lug 2025, 12:06:19, CEST: Attempting to run: Install and enable SDDM (Recommended)
+sab 12 lug 2025, 12:06:26, CEST: Operation cancelled by user.
+sab 12 lug 2025, 12:06:26, CEST: Install and enable SDDM (Recommended) was skipped by user choice.
+sab 12 lug 2025, 12:06:26, CEST: Attempting to run: Install Brave Browser
+sab 12 lug 2025, 12:06:28, CEST: Operation cancelled by user.
+sab 12 lug 2025, 12:06:28, CEST: Install Brave Browser was skipped by user choice.
+sab 12 lug 2025, 12:06:28, CEST: Attempting to run: Install Kitty (Recommended)
+sab 12 lug 2025, 12:06:31, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:32, CEST: Install Kitty (Recommended) completed successfully.
+sab 12 lug 2025, 12:06:32, CEST: Attempting to run: Install nano
+sab 12 lug 2025, 12:06:35, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:35, CEST: Install nano completed successfully.
+sab 12 lug 2025, 12:06:35, CEST: Attempting to run: Install tar for extracting files (Must)/needed for copying themes
+sab 12 lug 2025, 12:06:37, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:37, CEST: Install tar for extracting files (Must)/needed for copying themes completed successfully.
+sab 12 lug 2025, 12:06:39, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:39, CEST: Installation started for hypr section
+sab 12 lug 2025, 12:06:39, CEST: Attempting to run: Install Hyprland (Must)
+sab 12 lug 2025, 12:06:40, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:41, CEST: Install Hyprland (Must) completed successfully.
+sab 12 lug 2025, 12:06:41, CEST: Attempting to run: Copy hyprland config (Must)
+sab 12 lug 2025, 12:06:42, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:42, CEST: Copy hyprland config (Must) completed successfully.
+sab 12 lug 2025, 12:06:42, CEST: Attempting to run: Install XDG desktop portal for Hyprland
+sab 12 lug 2025, 12:06:52, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:53, CEST: Install XDG desktop portal for Hyprland completed successfully.
+sab 12 lug 2025, 12:06:53, CEST: Attempting to run: Install KDE Polkit agent for authentication dialogs
+sab 12 lug 2025, 12:06:53, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:55, CEST: Install KDE Polkit agent for authentication dialogs completed successfully.
+sab 12 lug 2025, 12:06:55, CEST: Attempting to run: Install Dunst notification daemon
+sab 12 lug 2025, 12:06:57, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:57, CEST: Install Dunst notification daemon completed successfully.
+sab 12 lug 2025, 12:06:57, CEST: Attempting to run: Copy dunst config
+sab 12 lug 2025, 12:06:58, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:06:58, CEST: Copy dunst config completed successfully.
+sab 12 lug 2025, 12:06:58, CEST: Attempting to run: Install QT support on wayland
+sab 12 lug 2025, 12:06:59, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:00, CEST: Install QT support on wayland completed successfully.
+sab 12 lug 2025, 12:07:01, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:01, CEST: Installation started for utilities section
+sab 12 lug 2025, 12:07:01, CEST: Attempting to run: Install Waybar - Status Bar
+sab 12 lug 2025, 12:07:03, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:03, CEST: Install Waybar - Status Bar completed successfully.
+sab 12 lug 2025, 12:07:03, CEST: Attempting to run: Copy Waybar config
+sab 12 lug 2025, 12:07:04, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:04, CEST: Copy Waybar config completed successfully.
+sab 12 lug 2025, 12:07:04, CEST: Attempting to run: Install Tofi - Application Launcher
+sab 12 lug 2025, 12:07:06, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:22, CEST: Install Tofi - Application Launcher completed successfully.
+sab 12 lug 2025, 12:07:22, CEST: Attempting to run: Copy Tofi config(s)
+sab 12 lug 2025, 12:07:24, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:24, CEST: Copy Tofi config(s) completed successfully.
+sab 12 lug 2025, 12:07:24, CEST: Attempting to run: Install Cliphist - Clipboard Manager
+sab 12 lug 2025, 12:07:25, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:26, CEST: Install Cliphist - Clipboard Manager completed successfully.
+sab 12 lug 2025, 12:07:26, CEST: Attempting to run: Install SWWW for wallpaper management
+sab 12 lug 2025, 12:07:27, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:30, CEST: Install SWWW for wallpaper management completed successfully.
+sab 12 lug 2025, 12:07:30, CEST: Attempting to run: Copy sample wallpapers to assets directory (Recommended)
+sab 12 lug 2025, 12:07:33, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:33, CEST: Copy sample wallpapers to assets directory (Recommended) completed successfully.
+sab 12 lug 2025, 12:07:33, CEST: Attempting to run: Install Hyprpicker - Color Picker
+sab 12 lug 2025, 12:07:35, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:37, CEST: Install Hyprpicker - Color Picker completed successfully.
+sab 12 lug 2025, 12:07:37, CEST: Attempting to run: Install Hyprlock - Screen Locker (Must)
+sab 12 lug 2025, 12:07:41, CEST: Operation cancelled by user.
+sab 12 lug 2025, 12:07:41, CEST: Install Hyprlock - Screen Locker (Must) was skipped by user choice.
+sab 12 lug 2025, 12:07:41, CEST: Attempting to run: Copy Hyprlock config
+sab 12 lug 2025, 12:07:45, CEST: Operation cancelled by user.
+sab 12 lug 2025, 12:07:45, CEST: Copy Hyprlock config was skipped by user choice.
+sab 12 lug 2025, 12:07:45, CEST: Attempting to run: Install Wlogout - Session Manager
+sab 12 lug 2025, 12:07:47, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:07:59, CEST: Install Wlogout - Session Manager completed successfully.
+sab 12 lug 2025, 12:07:59, CEST: Attempting to run: Copy Wlogout config and assets
+sab 12 lug 2025, 12:08:01, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:01, CEST: Copy Wlogout config and assets completed successfully.
+sab 12 lug 2025, 12:08:01, CEST: Attempting to run: Install Grimblast - Screenshot tool
+sab 12 lug 2025, 12:08:03, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:19, CEST: Install Grimblast - Screenshot tool completed successfully.
+sab 12 lug 2025, 12:08:19, CEST: Attempting to run: Install Hypridle for idle management (Must)
+sab 12 lug 2025, 12:08:20, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:23, CEST: Install Hypridle for idle management (Must) completed successfully.
+sab 12 lug 2025, 12:08:23, CEST: Attempting to run: Copy Hypridle config
+sab 12 lug 2025, 12:08:24, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:24, CEST: Copy Hypridle config completed successfully.
+sab 12 lug 2025, 12:08:25, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:25, CEST: Installation started for theming section
+sab 12 lug 2025, 12:08:25, CEST: Attempting to run: Install nwg-look for GTK theme management
+sab 12 lug 2025, 12:08:27, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:27, CEST: Install nwg-look for GTK theme management completed successfully.
+sab 12 lug 2025, 12:08:27, CEST: Attempting to run: Install Qt5, Qt6 Settings, and Kvantum theme engines
+sab 12 lug 2025, 12:08:29, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:30, CEST: Install Qt5, Qt6 Settings, and Kvantum theme engines completed successfully.
+sab 12 lug 2025, 12:08:30, CEST: Attempting to run: Install Catppuccin Mocha GTK theme
+sab 12 lug 2025, 12:08:31, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:31, CEST: Install Catppuccin Mocha GTK theme completed successfully.
+sab 12 lug 2025, 12:08:31, CEST: Attempting to run: Install Tela Circle Dracula icon theme
+sab 12 lug 2025, 12:08:34, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:35, CEST: Install Tela Circle Dracula icon theme completed successfully.
+sab 12 lug 2025, 12:08:35, CEST: Attempting to run: Install Catppuccin theme for Kvantum
+sab 12 lug 2025, 12:08:36, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:50, CEST: Install Catppuccin theme for Kvantum completed successfully.
+sab 12 lug 2025, 12:08:50, CEST: Attempting to run: Copy Catppuccin theme configuration for Kitty terminal
+sab 12 lug 2025, 12:08:52, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:52, CEST: Copy Catppuccin theme configuration for Kitty terminal completed successfully.
+sab 12 lug 2025, 12:08:53, CEST: Operation accepted by user.
+sab 12 lug 2025, 12:08:53, CEST: Final setup script started
+sab 12 lug 2025, 12:08:53, CEST: Installation completed successfully
