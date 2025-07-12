@@ -21,7 +21,7 @@ run_command "pacman -S --noconfirm ttf-cascadia-code-nerd ttf-cascadia-mono-nerd
 
 run_command "pacman -S --noconfirm ly && systemctl enable ly.service" "Install and enable LY" "yes"
 
-run_command "pacman -S --noconfirm firefox" "Install Firefox Browser" "yes" "no" 
+run_command "sudo pacman -S --noconfirm firefox" "Install Firefox Browser" "yes" "no" 
 
 run_command "pacman -S --noconfirm kitty" "Install Kitty (Recommended)" "yes"
 
