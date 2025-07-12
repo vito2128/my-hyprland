@@ -17,7 +17,7 @@ run_command "tar -xvf /home/$SUDO_USER/my-hyprland/assets/themes/Catppuccin-Moch
 
 run_command "tar -xvf /home/$SUDO_USER/my-hyprland/assets/icons/Tela-circle-dracula.tar.xz -C /usr/share/icons/" "Install Tela Circle Dracula icon theme" "yes"
 
-run_command "pacman -S --noconfirm thunar" "Install thunar file manager" "yes" "no"
+run_command "sudo pacman -S --noconfirm thunar" "Install thunar file manager" "yes" "no"
 
 run_command "cp -r /home/$SUDO_USER/my-hyprland/configs/kitty /home/$SUDO_USER/.config/" "Copy Catppuccin theme configuration for Kitty terminal" "yes" "no"
 
