@@ -15,7 +15,7 @@ run_command "cp -r /home/$SUDO_USER/my-hyprland/configs/waybar /home/$SUDO_USER/
 run_command "paru -S --sudoloop --noconfirm tofi" "Install Tofi - Application Launcher" "yes" "no"
 run_command "cp -r /home/$SUDO_USER/my-hyprland/configs/tofi /home/$SUDO_USER/.config/" "Copy Tofi config(s)" "yes" "no"
 
-run_command "paru -S --sudoloop --noconfirm swww" "Install SWWW for wallpaper management" "yes" "no"
+run_command "paru -S --sudoloop --noconfirm swww && paru -S --sudoloop --noconfirm waypaper" "Install SWWW and Waypaper for wallpaper management" "yes" "no"
 run_command "mkdir -p /home/$SUDO_USER/.config/assets/backgrounds && cp -r /home/$SUDO_USER/my-hyprland/assets/backgrounds /home/$SUDO_USER/.config/assets/" "Copy wallpapers to assets directory (Recommended)" "yes" "no"
 
 run_command "paru -S --sudoloop --noconfirm hyprpicker" "Install Hyprpicker - Color Picker" "yes" "no"
