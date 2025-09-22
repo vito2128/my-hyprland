@@ -7,7 +7,6 @@
     "gtk-layer-shell": true,
     "height": 0,
     "modules-left": [
-        "custom-launcher",
         "clock",
         "hyprland/workspaces"
     ],
@@ -23,13 +22,6 @@
 
     "hyprland/window": {
         "format": "󰣇 {}"
-    },
-
-"custom/launcher": {
-        "format": " ",
-        "on-click": "tofi-drun -c ~/.config/tofi/configA --drun-launch=true",
-        "on-click-right": "killall tofi",
-        "tooltip": false
     },
 
 
