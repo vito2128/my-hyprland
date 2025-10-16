@@ -1,9 +1,9 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: JetBrainsMono Nerd Font, monospace;
+    font-family: Hack Nerd Font, monospace;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     min-height: 0;
 }
 
@@ -106,6 +106,7 @@ window#waybar {
     color: #a6adc8;
     border-left: 0px;
     border-right: 0px;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #pulseaudio.microphone {
@@ -120,4 +121,15 @@ window#waybar {
     color:#a6adc8;
     border-radius: 0px 10px 10px 0px;
     margin-right: 10px;
+}
+
+#custom-pacman {
+    color:#a6adc8;
+    margin: 5;
+    background-color: #1E1E2E;
+    padding: 0 15px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px 10px 10px 10px;
+    
 }
