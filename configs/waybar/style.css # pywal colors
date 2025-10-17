@@ -1,3 +1,6 @@
+
+@import url("/home/vito/.cache/wal/colors-waybar.css");
+
 * {
     border: none;
     border-radius: 0;
@@ -8,35 +11,35 @@
 }
 
 window#waybar {
-    background: rgba(21, 18, 27, 0);
-    color: #cdd6f4;
+    background: transparent;
+    color: @foreground;
 }
 
 #workspaces button {
     padding: 5px;
-    color: #555869;
+    color: @foreground;
     margin-right: 5px;
 }
 
 #workspaces button.active {
-    color: #a6adc8;
+    color: @foreground;
 }
 
 #workspaces button.focused {
-    color: #a6adc8;
-    background: #eba0ac;
+    color: @color3;
+    background: @background;
     border-radius: 10px;
 }
 
 #workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
+    color: @color4;
+    background: @background;
     border-radius: 10px;
 }
 
 #workspaces button:hover {
-    background: #cdd6f4;
-    color: #11111b; 
+    background: @background;
+    color: @color5; 
     border-radius: 10px;
 }
 
@@ -50,7 +53,7 @@ window#waybar {
 #workspaces,
 #tray,
 #backlight {
-    background: #1e1e2e;
+    background: @background;
     padding: 0px 10px;
     margin: 3px 0px;
     margin-top: 5px;
@@ -67,7 +70,7 @@ window#waybar {
 }
 
 #workspaces {
-    background: #1e1e2e;
+    background: @background;
     border-radius: 10px;
     margin-left: 10px;
     padding-right: 0px;
@@ -90,27 +93,27 @@ window#waybar {
 }
 
 #clock {
-    color: #a6adc8;
+    color: @color7;
     border-radius: 10px 10px 10px 10px;
     margin-left: 5px;
     border-right: 0px;
 }
 
 #network {
-    color:  #a6adc8;
+    color:  @color7;
     border-radius: 10px 0px 0px 10px;
 
 }
 
 #pulseaudio {
-    color: #a6adc8;
+    color: @color8;
     border-left: 0px;
     border-right: 0px;
     border-radius: 10px 0px 0px 10px;
 }
 
 #pulseaudio.microphone {
-    color: #a6adc8;
+    color: @color14;
     border-radius: 0px 10px 10px 0px;
     border-left: 0px;
     border-right: 0px;
@@ -118,15 +121,15 @@ window#waybar {
 }
 
 #battery {
-    color:#a6adc8;
+    color:@color10;
     border-radius: 0px 10px 10px 0px;
     margin-right: 10px;
 }
 
 #custom-pacman {
-    color:#a6adc8;
+    color:@color11;
     margin: 5;
-    background-color: #1E1E2E;
+    background-color: @background;
     padding: 0 15px;
     border-left: 0px;
     border-right: 0px;
