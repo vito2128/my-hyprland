@@ -13,28 +13,23 @@
         "hyprland/window"
     ],
     "modules-right": [
-        "pulseaudio",
-        "network",
-        "temperature",
-        "backlight",
-        "battery",
-        "clock",
-        "tray",
-        "custom/power"
+    "tray",
+    "network",
+    "battery",
+    "backlight",
+    "pulseaudio",
+    "pulseaudio#microphone",
+    "custom/pacman"
+],
+
+"hyprland/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate"
+    // "format": "{icon}",
+},
     ],
-    // Modules configuration
-       "hyprland/workspaces": {
-           "disable-scroll": true,
-           "all-outputs": true,
-           "warp-on-scroll": false,
-           "format": "{name} ,
-           "format-icons": {
-               "1" ,
-               "2" ,
-               "3" ,
-               "4" ,
-           }
-       },
+    
 
     "tray": {
            "icon-size": 21,
